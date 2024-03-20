@@ -7,7 +7,6 @@ app.use(express.json())
 app.use(cors())
 const PORT = 3010;
 
-// Proxy endpoint
 app.get('/fetch-data', async (req, res) => {
     try {
         // Fetch data from the external server
